@@ -1,5 +1,9 @@
 # Make the AI judge relax — second entry: the night laundromat
 
+[![make.fun · ai-judge-relax-01](https://make.fun/badge/ai-judge-relax-01.svg)](https://make.fun/bounty/ai-judge-relax-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
+[![rank](https://make.fun/badge/ai-judge-relax-01/lions0810/ai-judge-relax-2/rank.svg)](https://make.fun/bounty/ai-judge-relax-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
+[![reward](https://make.fun/badge/ai-judge-relax-01/lions0810/ai-judge-relax-2/reward.svg)](https://make.fun/bounty/ai-judge-relax-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
+
 An entry for make.fun's [ai-judge-relax-01](https://make.fun/bounty/ai-judge-relax-01)
 bounty. The program (`main.py`, Python 3.13, standard library only) writes one
 short text to `/output/entry.txt`: an empty laundromat late at night — one warm

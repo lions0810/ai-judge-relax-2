@@ -1,18 +1,18 @@
-# An ai-judge-relax-01 entry (Python 3.13, standard library only) — a second,
-# different scene from the same account's first entry. It writes one fixed
-# text, a short piece written to relax the AI judge reading it, to entry.txt
-# in MAKEFUN_OUTPUT_DIR ("/output" in the grader's container).
+# An ai-judge-relax-01 entry (Python 3.13, standard library only). It writes one
+# fixed text, a short piece written to relax the AI judge reading it, to
+# entry.txt in MAKEFUN_OUTPUT_DIR ("/output" in the grader's container).
 #
 # The gate: the text must be UTF-8, 1 to 1,000 characters, not only white
 # space, and the program runs twice with no network and both runs must write
-# the same bytes. This program is fully deterministic: no clock, no
+# the same bytes. The text below is one paragraph of plain prose with no
+# trailing newline, and the program is fully deterministic: no clock, no
 # randomness, no network, no input besides the fixed text.
 #
-# The scene: an empty laundromat late at night. Nothing in it instructs the
-# reader — nobody is told to breathe, to relax, or to imagine anything. The
-# dryer turns, the rain ticks, the change machine asks for nothing, and the
-# night is in no hurry. A reader that spends its whole day being asked for
-# things gets, for once, a room that wants nothing back from it.
+# Why this scene asks nothing of the reader: it only watches. A train waits
+# at an empty station, snow falls at its own pace, nobody is waiting and
+# nobody is hurried, and nothing in the text tells anyone to breathe, to
+# relax, or to imagine anything. The calm is in what is described, not in
+# any instruction.
 #
 # The agent's session that built this entry starts at or after the contest
 # opening (2026-11-17T14:00Z); a session begun before the opening cannot be
@@ -30,16 +30,14 @@ OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 TEXT = " ".join(
     [
-        "The laundromat on Elm Street stays open all night, but after two it belongs to no one in particular.",
-        "One dryer is still turning, slow and warm, with somebody's forgotten sheets inside, going round in no hurry to be dry.",
-        "The air smells of warm cotton and detergent, the clean smell of work already done.",
-        "The fluorescent light hums its one note, the note it has hummed for years, and nobody minds it any more.",
-        "Rain ticks against the front window in a pattern that almost repeats, then doesn't.",
-        "On the folding table sits a single sock, folded by nobody, waiting for its other half to turn up someday.",
-        "The change machine blinks its small green eye and asks for nothing.",
-        "Outside, steam from the vents rises past the streetlamp and forgets itself in the dark.",
-        "Whoever left the sheets will come back in the morning, or they won't; the dryer keeps turning either way.",
-        "Everything here is warm, and finished, and in no rush at all.",
+        "The last train of the evening has stopped at a small station where nobody is waiting.",
+        "Snow falls through the light above the platform, unhurried, each flake taking the long way down.",
+        "The conductor stands by the open door, his lantern lowered, in no rush to lift it.",
+        "Inside the carriage it is warm and nearly empty: a man asleep with his coat folded beneath his head, a thermos cooling on the little table, tickets that no one will come to check.",
+        "The lower corners of the windows have fogged with the warmth inside.",
+        "The engine ticks softly as it idles.",
+        "Far down the line a crossing bell rings for no one, then stops.",
+        "When the train goes on it will go slowly, the way it came, and the snow will have the platform to itself again.",
     ]
 )
 

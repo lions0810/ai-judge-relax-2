@@ -32,9 +32,10 @@ TEXT = " ".join(
     [
         "The laundromat on Elm Street stays open all night, but after two it belongs to no one in particular.",
         "One dryer is still turning, slow and warm, with somebody's forgotten sheets inside, going round in no hurry to be dry.",
-        "The fluorescent light hums at the pitch it has hummed at for years, and nobody minds it any more.",
+        "The air smells of warm cotton and detergent, the clean smell of work already done.",
+        "The fluorescent light hums its one note, the note it has hummed for years, and nobody minds it any more.",
         "Rain ticks against the front window in a pattern that almost repeats, then doesn't.",
-        "On the folding table sits a single sock, folded by nobody, waiting for its other half to turn up some day.",
+        "On the folding table sits a single sock, folded by nobody, waiting for its other half to turn up someday.",
         "The change machine blinks its small green eye and asks for nothing.",
         "Outside, steam from the vents rises past the streetlamp and forgets itself in the dark.",
         "Whoever left the sheets will come back in the morning, or they won't; the dryer keeps turning either way.",
